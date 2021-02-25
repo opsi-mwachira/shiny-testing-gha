@@ -20,5 +20,5 @@ jobs:
     # Runs a single command using the runners shell
     - name: Update Repo
       run: |
-        - cd C:\Users\Mutahi.Wachira\Documents\shiny-testing-gha
-        - git pull
+        cd C:\Users\Mutahi.Wachira\Documents\shiny-testing-gha; |
+        git pull
